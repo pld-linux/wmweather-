@@ -6,5 +6,5 @@ Name=wmweather+
 Comment=Applet that displays the weather
 Comment[pl]=Aplet wyświetlający informacje o pogodzie
 Categories=X-Docklet;
-NotShowIn=GNOME;KDE;
+NotShowIn=GApplet;
 # vi: encoding=utf-8
