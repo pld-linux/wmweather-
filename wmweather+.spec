@@ -8,9 +8,10 @@ Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
 # Source0-md5:	ede58d7ed589d5c41b9b68a2703a8f7d
 Source1:	%{name}.desktop
-URL:		http://www.sourceforge.net/projects/wmweahterplus/
-BuildRequires:	w3c-libwww-devel
+URL:		http://www.sourceforge.net/projects/wmweatherplus/
 BuildRequires:	XFree86-devel
+BuildRequires:	pcre-devel
+BuildRequires:	w3c-libwww-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
