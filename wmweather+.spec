@@ -7,7 +7,7 @@ License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
 # Source0-md5:	ede58d7ed589d5c41b9b68a2703a8f7d
-#Source1:	%{name}.desktop
+Source1:	%{name}.desktop
 URL:		http://www.sourceforge.net/projects/wmweahterplus/
 BuildRequires:	w3c-libwww-devel
 BuildRequires:	XFree86-devel
@@ -35,8 +35,12 @@ mniejszym fontem, prognozami, map± pogody i wy¶wietlaniem stanu nieba.
 %install
 rm -rf $RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT%{_desktopdir}
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,3 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog HINTS README
 %attr(755,root,root) %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
+%{_desktopdir}/*
