@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
+# Source0-md5:	32d16bea88cf374964b5e87a15698c8d
 Source1:	%{name}.desktop
 URL:		http://www.sourceforge.net/projects/wmweahterplus/
 BuildRequires:	w3c-libwww-devel
@@ -34,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
-#rm -rf $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
