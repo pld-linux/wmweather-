@@ -35,12 +35,12 @@ mniejszym fontem, prognozami, map± pogody i wy¶wietlaniem stanu nieba.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+install -d $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -50,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog HINTS README
 %attr(755,root,root) %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
-%{_desktopdir}/*
+%{_desktopdir}/docklets/*
