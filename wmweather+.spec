@@ -1,13 +1,13 @@
 Summary:	Applet that displays the weather
 Summary(pl):	Aplet wy¶wietlaj±cy informacje o pogodzie
 Name:		wmweather+
-Version:	2.5
+Version:	2.9
 Release:	0.1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
-# Source0-md5:	32d16bea88cf374964b5e87a15698c8d
-Source1:	%{name}.desktop
+# Source0-md5:	ede58d7ed589d5c41b9b68a2703a8f7d
+#Source1:	%{name}.desktop
 URL:		http://www.sourceforge.net/projects/wmweahterplus/
 BuildRequires:	w3c-libwww-devel
 BuildRequires:	XFree86-devel
