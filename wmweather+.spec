@@ -14,12 +14,16 @@ BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-wmweather+ will download the National Weather Serivce METAR bulletins;
+wmweather+ will download the National Weather Service METAR bulletins;
 AVN, ETA, and MRF forecasts; and any weather map for display in a
 WindowMaker dockapp. Think wmweather with a smaller font, forecasts, a
 weather map, and a sky condition display.
 
-#%description -l pl
+%description -l pl
+wmweather+ ¶ci±ga biuletyny METAR z National Weather Service, prognozy
+AVN, ETA i MRF oraz dowolne mapy pogody do wy¶wietlania w dockappie
+WindowMakera. Ten program mo¿na sobie wyobraziæ jako wmweather z
+mniejszym fontem, prognozami, map± pogody i wy¶wietlaniem stanu nieba.
 
 %prep
 %setup -q
