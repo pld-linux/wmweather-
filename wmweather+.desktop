@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=wmweather+
+Name=wmweather+
+Comment=Applet that displays the weather
+Comment[pl]=Aplet wy¶wietlaj±cy informacje o pogodzie
+# vi: encoding=utf-8
