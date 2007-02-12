@@ -1,5 +1,5 @@
 Summary:	Applet that displays the weather
-Summary(pl):	Aplet wy¶wietlaj±cy informacje o pogodzie
+Summary(pl.UTF-8):   Aplet wyÅ›wietlajÄ…cy informacje o pogodzie
 Name:		wmweather+
 Version:	2.9
 Release:	0.1
@@ -20,11 +20,11 @@ AVN, ETA, and MRF forecasts; and any weather map for display in a
 WindowMaker dockapp. Think wmweather with a smaller font, forecasts, a
 weather map, and a sky condition display.
 
-%description -l pl
-wmweather+ ¶ci±ga biuletyny METAR z National Weather Service, prognozy
-AVN, ETA i MRF oraz dowolne mapy pogody do wy¶wietlania w dockappie
-WindowMakera. Ten program mo¿na sobie wyobraziæ jako wmweather z
-mniejszym fontem, prognozami, map± pogody i wy¶wietlaniem stanu nieba.
+%description -l pl.UTF-8
+wmweather+ Å›ciÄ…ga biuletyny METAR z National Weather Service, prognozy
+AVN, ETA i MRF oraz dowolne mapy pogody do wyÅ›wietlania w dockappie
+WindowMakera. Ten program moÅ¼na sobie wyobraziÄ‡ jako wmweather z
+mniejszym fontem, prognozami, mapÄ… pogody i wyÅ›wietlaniem stanu nieba.
 
 %prep
 %setup -q
