@@ -4,6 +4,5 @@ Exec=wmweather+
 Name=wmweather+
 Comment=Applet that displays the weather
 Comment[pl]=Aplet wyświetlający informacje o pogodzie
-Categories=X-Docklet;
-NotShowIn=GApplet;
+Categories=Applet;
 # vi: encoding=utf-8
