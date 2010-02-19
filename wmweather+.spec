@@ -10,9 +10,9 @@ Source0:	http://downloads.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.g
 Source1:	%{name}.desktop
 URL:		http://www.sourceforge.net/projects/wmweatherplus/
 BuildRequires:	WindowMaker-devel
-BuildRequires:	XFree86-devel
 BuildRequires:	libmd5-devel
 BuildRequires:	pcre-devel
+BuildRequires:	w3c-libwww-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
