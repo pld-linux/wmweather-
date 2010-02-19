@@ -5,13 +5,14 @@ Version:	2.9
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
-Source0:	http://dl.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/wmweatherplus/%{name}-%{version}.tar.gz
 # Source0-md5:	ede58d7ed589d5c41b9b68a2703a8f7d
 Source1:	%{name}.desktop
 URL:		http://www.sourceforge.net/projects/wmweatherplus/
+BuildRequires:	WindowMaker-devel
 BuildRequires:	XFree86-devel
+BuildRequires:	libmd5-devel
 BuildRequires:	pcre-devel
-BuildRequires:	w3c-libwww-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
